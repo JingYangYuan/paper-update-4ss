@@ -4,7 +4,7 @@
 
 # Paper 知识更新 4SS
 
-社会科学论文技能包全包候选更新系统。用于从学术专著、教材、期刊论文、综述、课程材料、研究笔记、方法手册和本地经验中生成待人工审核的更新包，可指向 design、lit、outline、analysis、write、submission 与 update 自身。只输出到 paper-workspace/07-update/，不得直接修改任何核心模块文件。
+社会科学论文技能包全包候选更新系统。用于从学术专著、教材、期刊论文、综述、课程材料、研究笔记、方法手册和本地经验中生成待人工审核的更新包，可指向 design、lit、outline、analysis、write、check、submission 与 update 自身。只输出到 paper-workspace/07-update/，不得直接修改任何核心模块文件。
 
 ## 4SS 家族
 
@@ -16,12 +16,13 @@
 | [paper-outline-4ss](https://github.com/JingYangYuan/paper-outline-4ss) | 素材转大纲、证据映射、缺口报告 |
 | [paper-analysis-4ss](https://github.com/JingYangYuan/paper-analysis-4ss) | 定量 / 质性 / 混合，Stata · R · Python |
 | [paper-write-4ss](https://github.com/JingYangYuan/paper-write-4ss) | 章节写作、润色、语言扫描、正文净稿 |
+| [paper-check-4ss](https://github.com/JingYangYuan/paper-check-4ss) | 全文审稿、质量门控与精确回流 |
 | [paper-submission-4ss](https://github.com/JingYangYuan/paper-submission-4ss) | Word 导出、体例、投稿清单与信函 |
 | **[paper-update-4ss](https://github.com/JingYangYuan/paper-update-4ss)**（本仓库） | 待审核更新包，不直接改核心文件 |
 
 ## 它做什么
 
-从专著、教材、论文、课程材料、笔记和方法手册生成**待人工审核**的更新包，可指向 design、lit、outline、analysis、write、submission 与 update 自身。
+从专著、教材、论文、课程材料、笔记和方法手册生成**待人工审核**的更新包，可指向 design、lit、outline、analysis、write、check、submission 与 update 自身。
 
 只写到 `paper-workspace/07-update/`，不得直接修改任何核心模块文件。合并进总控必须经人工确认。
 
