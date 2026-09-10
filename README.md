@@ -42,7 +42,7 @@ git clone https://github.com/JingYangYuan/paper-update-4ss.git
 
 - 包内相对路径相对本包根目录解析
 - `master/` 与部分 `references/` 是导出时的协议快照
-- 更新方式：修改总控对应模块后重新导出，不要直接改本仓库
+- 更新方式：修改总控任一模块、家族表、路由或协议后，必须无参数重新导出**全部**独立包并 push 全部 GitHub 仓；不要只改本仓库，也不要只导出改过的那一个。
 
 ## License
 
