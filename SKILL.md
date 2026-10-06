@@ -1,10 +1,12 @@
 ---
 name: paper-update-4ss
 description: 社会科学论文技能包全包候选更新系统。用于从学术专著、教材、期刊论文、综述、课程材料、研究笔记、方法手册和本地经验中生成待人工审核的更新包，可指向 design、lit、outline、analysis、write、check、submission 与 update 自身。只输出到 paper-workspace/07-update/，不得直接修改任何核心模块文件。
-argument-hint: "[discipline-knowledge|writing-paradigm|method-protocol|workflow-protocol|tooling-template|self-update|mixed] [输入路径或主题] [可选: 目标模块, 目标文件, 目标期刊]"
+args_hint: "[discipline-knowledge|writing-paradigm|method-protocol|workflow-protocol|tooling-template|self-update|mixed] [输入路径或主题] [可选: 目标模块, 目标文件, 目标期刊]"
 ---
 
 > **拆分版路径约定**：本包由 `paper-master-4ss/scripts/export_standalone.py` 从 `paper-master-4ss/modules/update/` 自动导出，是可独立安装的运行版。包内相对路径（`agents/`、`phases/`、`references/`、`master/` 等）相对本包根目录解析；跨模块路径 `paper-master-4ss/modules/<x>/...` 相对同级安装的 `paper-master-4ss/` 总控包解析。请勿直接编辑本包：修改总控模块后重新导出。
+>
+> **宿主无关约定**：本包不预设宿主，也不在 frontmatter 声明 `tools`/`hooks`/`model` 等宿主专属键。启动时按 `references/runtime-adapter.md` §5 探测当前环境可用能力，再按通用能力名（`read_file`、`search_text`、`web_search`、`run_shell`、`spawn_agent` 等）执行；宿主样例见 `references/agent-software-adapters.md`（样例，非名单）。
 
 # Paper Update 4SS
 
