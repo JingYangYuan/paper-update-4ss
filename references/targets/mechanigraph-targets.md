@@ -24,5 +24,5 @@ mechanigraph 模块负责社科学术机制图（理论机制图、分析框架�
 
 - 新增学术机制图拓扑构型、代码模版或微调规范优先进入 `references/drawing_patterns_reference.md`。
 - 几何布局计算、文字安全走廊公式或间距标准更新进入 `references/design_system.md`。
-- 涉及前置询问偏好流程（`ask_user`）或自检审查闭环协议的变更，目标面标为 `workflow-protocol`。
+- 涉及前置询问偏好流程带选项的提问或自检审查闭环协议的变更，目标面标为 `workflow-protocol`。
 - 涉及渲染器（`render_svg.py`）或生成器（`generate_mechanism.py`）的脚本更新必须给出跨平台（macOS/Linux/Windows）测试用例和预期视觉效果，目标面标为 `tooling-template`。
